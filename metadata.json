@@ -1,0 +1,6 @@
+{
+  "name": "Carbon Matrix Datacore",
+  "description": "Schema definitions and DB specifications for carbon tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
