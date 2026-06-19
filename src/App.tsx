@@ -16,8 +16,8 @@ export default function App() {
           <Route index element={<Dashboard />} />
           <Route path="tracker" element={<Tracker />} />
           <Route path="analytics" element={<Analytics />} />
-          <Route path="challenges" element={<Challenges />} />
-          <Route path="ai-coach" element={<AICoach />} />
+          <Route path="goals" element={<Challenges />} />
+          <Route path="advisor" element={<AICoach />} />
           <Route path="*" element={<Navigate to="/app" replace />} />
         </Route>
         <Route path="*" element={<Navigate to="/" replace />} />

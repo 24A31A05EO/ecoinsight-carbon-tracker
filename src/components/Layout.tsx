@@ -29,8 +29,8 @@ export default function Layout() {
           <NavItem to="/app" icon={<LayoutDashboard size={20} />} label="Dashboard" exact />
           <NavItem to="/app/tracker" icon={<Activity size={20} />} label="Carbon Tracker" />
           <NavItem to="/app/analytics" icon={<BarChart2 size={20} />} label="Carbon Analytics" />
-          <NavItem to="/app/challenges" icon={<Target size={20} />} label="Eco Goals" />
-          <NavItem to="/app/ai-coach" icon={<BrainCircuit size={20} />} label="AI Eco Advisor" />
+          <NavItem to="/app/goals" icon={<Target size={20} />} label="Eco Goals" />
+          <NavItem to="/app/advisor" icon={<BrainCircuit size={20} />} label="AI Eco Advisor" />
         </div>
 
         <div className="hidden md:block p-6 border-t border-slate-800/50">
